@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+               /* Header */
+#location-info{
+    border: 1px solid #000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location{
+
+    display: flex;
+    gap: 50px;
+}
+
+.location>div{
+    display: flex;
+    align-items: center;
+}
+
+
+.logo>a{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+
+.location-icon{
+    margin: 5px;
+    font-size: 2rem
+}
+
+
+.listItem{
+   
+  display: none;
+   position: absolute;
+}
+
+.dropdown{
+ list-style: none;
+}
+
+.dropdown:hover .listItem{
+    list-style: none;
+    border: 1px solid #000;
+    display: block;
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
