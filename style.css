@@ -46,6 +46,7 @@
 
 .dropdown{
  list-style: none;
+ z-index: 10;
 }
 
 .dropdown:hover .listItem{
@@ -127,4 +128,37 @@ button{
     padding: 10px;
     border-radius: 10px;
     border: none;
+}
+
+
+#items{
+    display: none;
+}
+
+#dropdown:hover #items{
+    display: block;
+}
+
+
+.my-pic{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+}
+
+#blur{
+    height: 0px;
+    width: 200px; 
+
+    z-index: 2;
+   
+    
+}
+
+
+#effect:hover #blur{
+    background-color: rgb(246, 255, 240);
+    opacity: 0.6;
+    height: 200px;
+    transition: height 2s;
 }
