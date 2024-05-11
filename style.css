@@ -162,3 +162,67 @@ button{
     height: 200px;
     transition: height 2s;
 }
+
+
+#visit-schedule-2{
+ display: none;       
+}
+
+
+
+@media (max-width:600px){
+
+
+    .location {
+       display: block;
+       font-size: 10px;
+    }
+
+    .location>div>div>.fa-solid{
+        font-size: 10px;
+    }
+
+    .logo>a{
+        font-size: 1.5rem;
+    }
+
+    #navigation{
+    gap: 13px;
+    }
+
+
+    #visit-schedule{
+     display: none;
+    }
+
+    #visit-schedule-2{
+          display: flex;
+          flex-direction: column;
+         align-items: center;
+          border: 1px solid #df0e0e;
+         
+    }
+
+    #banner{
+     
+    height: 300px;
+    width: 100%;
+    background-image: url("https://www.ovationthemes.com/demos/medical-care-pro/wp-content/themes/medical-pro/assets/images/slides/slider1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+
+
+  
+}
+
+
+
+
+@media (min-width:601px) and (max-width:800px){
+    body{
+        background-color: #19af91;
+    }
+}
+
